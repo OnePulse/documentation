@@ -25,7 +25,7 @@ layout: default
     <td>20/02/2016</td>
     <td></td>
     <td></td>
-    <td>2.4.0/2.4.1</td>
+    <td>[2.4.0](public/release-notes/web/2.4.0)/2.4.1</td>
     <td></td>
     <td></td>
   </tr>
@@ -41,7 +41,7 @@ layout: default
     <td>10/02/2016</td>
     <td></td>
     <td></td>
-    <td>2.3.0</td>
+    <td>[2.3.0](public/release-notes/web/2.3.0)</td>
     <td></td>
     <td></td>
   </tr>
@@ -49,7 +49,7 @@ layout: default
     <td>03/02/2016</td>
     <td></td>
     <td></td>
-    <td>2.2.0</td>
+    <td>[2.2.0](public/release-notes/web/2.2.0)</td>
     <td></td>
     <td></td>
   </tr>
@@ -57,7 +57,7 @@ layout: default
     <td>26/01/2017</td>
     <td></td>
     <td></td>
-    <td>2.1.0</td>
+    <td>[2.1.0](public/release-notes/web/2.1.0)</td>
     <td></td>
     <td></td>
   </tr>
@@ -65,7 +65,7 @@ layout: default
     <td>19/01/2017</td>
     <td>2.0.0</td>
     <td></td>
-    <td>2.0.0</td>
+    <td>[2.0.0](public/release-notes/web/2.0.0)</td>
     <td></td>
     <td></td>
   </tr>
