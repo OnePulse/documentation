@@ -12,11 +12,11 @@ layout: default
 
 ### [](#header-3)Web
 
-*   [Release Matrix](public/release-notes/web/2.0.0).
-*   [Release Matrix](public/release-notes/web/2.1.0).
-*   [Release Matrix](public/release-notes/web/2.2.0).
-*   [Release Matrix](public/release-notes/web/2.3.0).
-*   [Release Matrix](public/release-notes/web/2.4.0).
+*   [2.0.0](public/release-notes/web/2.0.0).
+*   [2.1.0](public/release-notes/web/2.1.0).
+*   [2.2.0](public/release-notes/web/2.2.0).
+*   [2.3.0](public/release-notes/web/2.3.0).
+*   [2.4.0](public/release-notes/web/2.4.0).
 
 ### [](#header-3)API
 
