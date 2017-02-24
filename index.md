@@ -17,9 +17,10 @@ layout: default
 *   [2.2.0](public/release-notes/web/2.2.0)
 *   [2.3.0](public/release-notes/web/2.3.0)
 *   [2.4.0](public/release-notes/web/2.4.0)
+*   [2.5.0](public/release-notes/web/2.5.0)
 
 ### [](#header-3)API
 
-### [](#header-3)Mobile
+### [](#header-3)Mobile   
 
 
