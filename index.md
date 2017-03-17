@@ -29,3 +29,4 @@ layout: default
 ### [](#header-3)HealthCheck  
 
 *   [1.0.0](public/release-notes/healthcheck/1.0.0)
+*   [1.1.0](public/release-notes/healthcheck/1.1.0)
