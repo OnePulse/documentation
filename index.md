@@ -21,6 +21,7 @@ layout: default
 *   [2.6.0](public/release-notes/web/2.6.0)
 *   [2.7.0](public/release-notes/web/2.7.0)
 *   [2.8.0](public/release-notes/web/2.8.0)
+*   [2.9.0](public/release-notes/web/2.9.0)
 
 ### [](#header-3)API
 
@@ -30,3 +31,4 @@ layout: default
 
 *   [1.0.0](public/release-notes/healthcheck/1.0.0)
 *   [1.1.0](public/release-notes/healthcheck/1.1.0)
+*   [1.2.0](public/release-notes/healthcheck/1.2.0)
