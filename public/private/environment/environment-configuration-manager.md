@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 #Environment Configuration Manager
 
 The configuration manager is designed to generate configuration files for a specific environment on code deploy using an artisan command that will be run as part of the deploy script in forge. The goal is to put .env values under source control and remove the risk of forgetting crucial .env changes when deploying to multiple servers. 
