@@ -1,13 +1,16 @@
 #Environment Configuration Manager
+
 The configuration manager is designed to generate configuration files for a specific environment on code deploy using an artisan command that will be run as part of the deploy script in forge. The goal is to put .env values under source control and remove the risk of forgetting crucial .env changes when deploying to multiple servers. 
 
 ##Components
+
 The .env manager consists of:
  - An artisan command to generate the .env files
  - A set of configuration templates related to a .env file
  - The App\Environment\Generator class
  
 ###The Artisan Command
+
 The command has the following pattern
 
 	publish:env {app_name} {environment=local} {mode=API_MODE} {debug=0}
@@ -18,6 +21,7 @@ The command has the following pattern
 `debug`: If this is set as _1_ then the log level is set to _all_ and the _APP\_DEBUG_ to true. In productin we should pass the default _0_
 
 ###The Templates
+
 Templates are stored under the `/env` directory in a directory named as the environment. The structure of `/env` should be:
 /env
 
