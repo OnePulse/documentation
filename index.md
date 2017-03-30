@@ -22,6 +22,7 @@ layout: default
 *   [2.7.0](public/release-notes/web/2.7.0)
 *   [2.8.0](public/release-notes/web/2.8.0)
 *   [2.9.0](public/release-notes/web/2.9.0)
+*   [2.10.0](public/release-notes/web/2.10.0)
 
 ### [](#header-3)API
 
