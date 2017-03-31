@@ -7,9 +7,9 @@ layout: default
 ## [](#header-3)Environment
 
 <ul>
-  {% for doc in environment %}
+  {% for post in environment %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
