@@ -6,10 +6,4 @@ layout: default
 
 ## [](#header-3)Environment
 
-<ul>
-  {% for post in environment %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+*   [Environment Configuration Manager](environment/environment-configuration-manager)
