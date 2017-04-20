@@ -25,6 +25,7 @@ layout: default
 *   [2.10.0](public/release-notes/web/2.10.0)
 *   [2.11.0](public/release-notes/web/2.11.0)
 *   [2.12.0](public/release-notes/web/2.12.0)
+*   [2.13.0](public/release-notes/web/2.13.0)
 
 ### [](#header-3)API
 
