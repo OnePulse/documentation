@@ -6,7 +6,7 @@ layout: default
 
 | Date       | API/Services                         | Web                                     |  Mob (And) |  Mob (iOS) | HealthCheck                             |
 |:-----------|:---------------------------------    |:----------------------------------------|:-----------|:-----------|-----------------------------------------|
-| 26/05/2016 |[2.13.0](release-notes/api/2.13.0)    |[2.13.0](release-notes/web/2.14.0)       |            |            |                                         |
+| 26/05/2016 |[2.13.0](release-notes/api/2.13.0)    |[2.14.0](release-notes/web/2.14.0)       |            |            |                                         |
 | 24/04/2016 |Dev freeze                            |Dev freeze                               |            |            |[1.3.0](release-notes/healthcheck/1.3.0) |
 | 20/04/2016 |                                      |[2.13.0](release-notes/web/2.13.0)       |            |            |                                         |
 | 13/04/2016 |                                      |[2.12.0](release-notes/web/2.12.0)       |            |            |                                         |
