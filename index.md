@@ -28,11 +28,13 @@ layout: default
 *   [2.13.0](public/release-notes/web/2.13.0)
 *   [2.14.0](public/release-notes/web/2.14.0)
 *   [2.14.1](public/release-notes/web/2.14.1)
+*   [2.14.1](public/release-notes/web/2.15.0)
 
 ### [](#header-3)API/Services
 
 *   [2.13.0](public/release-notes/api/2.13.0)
 *   [2.14.0](public/release-notes/api/2.14.0)
+*   [2.15.0](public/release-notes/api/2.15.0)
 
 ### [](#header-3)Mobile   
 
