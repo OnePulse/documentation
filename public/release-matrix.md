@@ -6,6 +6,7 @@ layout: default
 
 | Date       | API/Services                         | Web                                     |  Mob (And) |  Mob (iOS) | HealthCheck                             |
 |:-----------|:---------------------------------    |:----------------------------------------|:-----------|:-----------|-----------------------------------------|
+| 09/07/2016 |[2.19.0](release-notes/api/2.19.0)    |[2.17.0](release-notes/web/2.19.0)       |            |            |[1.4.0](release-notes/healthcheck/1.4.0) |
 | 25/06/2016 |[2.17.0](release-notes/api/2.17.0)    |[2.17.0](release-notes/web/2.17.0)       |            |            |                                         |
 | 16/06/2016 |[2.16.0](release-notes/api/2.16.0)    |[2.16.0](release-notes/web/2.16.0)       |            |            |                                         |
 | 09/06/2016 |[2.15.0](release-notes/api/2.15.0)    |[2.15.0](release-notes/web/2.15.0)       |            |            |                                         |

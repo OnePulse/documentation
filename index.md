@@ -31,6 +31,7 @@ layout: default
 *   [2.15.0](public/release-notes/web/2.15.0)
 *   [2.16.0](public/release-notes/web/2.16.0)
 *   [2.17.0](public/release-notes/web/2.17.0)
+*   [2.19.0](public/release-notes/web/2.19.0)
 
 ### [](#header-3)API/Services
 
@@ -39,6 +40,7 @@ layout: default
 *   [2.15.0](public/release-notes/api/2.15.0)
 *   [2.16.0](public/release-notes/api/2.16.0)
 *   [2.17.0](public/release-notes/api/2.17.0)
+*   [2.19.0](public/release-notes/api/2.19.0)
 
 ### [](#header-3)Mobile   
 
@@ -47,3 +49,5 @@ layout: default
 *   [1.0.0](public/release-notes/healthcheck/1.0.0)
 *   [1.1.0](public/release-notes/healthcheck/1.1.0)
 *   [1.2.0](public/release-notes/healthcheck/1.2.0)
+*   [1.3.0](public/release-notes/healthcheck/1.3.0)
+*   [1.4.0](public/release-notes/healthcheck/1.4.0)
