@@ -1,3 +1,3 @@
 # OnePulse PushServer
 
-[Link to another page](push-server/intro).
+[Introduction](https://github.com/OnePulse/documentation/blob/push-server/public/push-server/intro.md)
