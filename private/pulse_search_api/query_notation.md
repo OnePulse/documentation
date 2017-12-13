@@ -1,9 +1,42 @@
 ## Pulse Query API
 
-The pulse query API is at `/api/pulses/query` and accepts 3 parameters; `query`,`fields` and `page`.
+The pulse query API is at `/api/pulses/query` and accepts 3 parameters; `query`, `sort`, `fields` and `page`.
 
 #### Query Param
 The `query` param is required and will accept a string query using the ElasticSearch notation described [here](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/query-dsl-query-string-query.html).
+
+#### Sort Param
+The sort accepts a JSON that describes the fields and order to sort the results on. Leaving this empty will default to sorting on the Elasticsearch relavence `_score` attribute (more [here](https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-intro.html)). This is the equivilant of sending the following JSON:
+
+```
+[
+	{ 
+		"_score": {
+	 		"order": "desc" 
+	 	}
+ 	}
+]
+```
+
+Any combination of fields can be sent within the JSON array. Empty fields can be handled using either the `_first` or `_last` flags like so:
+
+```
+[
+	{
+		"pulse.ended_at": {
+			"order": "asc",
+			"missing": "_first"
+		}	
+	},
+	{ 
+		"_score": {
+	 		"order": "desc" 
+	 	}
+	}	
+]
+```
+
+For more sort options read [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-sort.html).
 
 #### Fields Param
 Querys can be constructed by passing document fields into the query string (see examples below) or by specifying a CSV of fields that can be optionally included under the `fields` param. The examples below only use the embedded fields notation as this is the simplest approach.
