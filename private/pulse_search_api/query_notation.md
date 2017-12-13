@@ -1,6 +1,12 @@
 ## Pulse Query API
 
-The pulse query API is at `/api/pulses/query` and accepts 3 parameters; `query`, `sort`, `fields` and `page`.
+The authenticated pulse query API is at `/api/pulses/query` and the public share API is at `/api/meta/query/pulses`. 
+
+Both accept the parameters; `query`, `sort`, `fields` and `page` and `is_store`.
+
+The authenticated API will enforce a filter on pulse.client_id to ensure ownership except if the `is_store` param is sent. In this case the results will be filtered to only those catalogued for sale.
+
+The public API will enforce the public criteria; is owned by a onepulse client account and has the `pulse.is_result_shareable` flag.
 
 #### Query Param
 The `query` param is required and will accept a string query using the ElasticSearch notation described [here](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/query-dsl-query-string-query.html).
@@ -45,6 +51,9 @@ Querys can be constructed by passing document fields into the query string (see 
 The page param is optional and can be used as expected to provide pagination of the results. 
 
 :pencil2: Querys will be limited to a max of 2000 results. This mean pagination may not return all the pulses that match a query if it is too loose.  A more specific query should be used in this case.
+
+#### Is Store Param
+The `is_store` flag can be set to true to filter out pulses that are catalogued for sale. The flag can be used on either endpoint but logically only makes sense to be used on the authenticated API at `/api/pulses/query`
 
 ### Query Examples
 
