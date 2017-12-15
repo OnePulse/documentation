@@ -16,11 +16,10 @@ The sort accepts a JSON that describes the fields and order to sort the results 
 
 ```
 [
-	{ 
-		"_score": {
-	 		"order": "desc" 
-	 	}
- 	}
+	{
+		"field": "_score",
+		"order": "desc"
+	}
 ]
 ```
 
@@ -29,16 +28,16 @@ Any combination of fields can be sent within the JSON array. Empty fields can be
 ```
 [
 	{
-		"pulse.ended_at": {
-			"order": "asc",
-			"missing": "_first"
-		}	
+		"field": "_score",
+		"order": "desc"
 	},
-	{ 
-		"_score": {
-	 		"order": "desc" 
-	 	}
-	}	
+	{
+		"field": "pulse.created_at",
+		"order": "desc",
+		"params": {
+			"missing": "_last"
+		}
+	}
 ]
 ```
 
