@@ -2,11 +2,9 @@
 
 ### Client 
 
-####401: Expired token
-
-####403: Logout
-
-####406: User does not exist (Preview Pulse)
+#### 401: Expired token
+#### 403: Logout
+#### 406: User does not exist (Preview Pulse)
 
 ####409: User already logged in
 
