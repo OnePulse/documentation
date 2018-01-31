@@ -15,11 +15,12 @@
      \Carbon\Carbon::parse($user_profile_demographic->created_at)->addDays($demographic_value->expires_in);
  It is therefore the defined number of days after the user added the demographic value to their profile.
  
- ### Updated Profile Cases
+### Updated Profile Cases
  
- #### Exclusive
+#### Exclusive
  In the case of an exclusive choice demographic changing value the original value will be removed the the deleted method of `UserProfileDemographicObserver::deleted` will ensure the old value is archived.
  
+### Multiple
  In the case of multiple choice demographics. If existing values are re-written with the same value they will not need to be archived. The date in `user_profile_demographics.updated_at` will indicate it has been re-written. Additional values added for that demographic will show with later dates in `user_profile_demographics.created_at` than other values for the same demographic. If any values are removed they will be picked up by the  `UserProfileDemographicObserver::deleted` method and archived.
  
 ###Classes
