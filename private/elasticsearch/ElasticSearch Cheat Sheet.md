@@ -1,10 +1,10 @@
 ## Elasticsearch Cheat Sheet
 
 ### Live Update Mappings
-First create a new index as temp index
+First create a new index
 	`php artisan elasticsearch:mapping mobile_users_2`
 
-Then copy the existing index into the temp index. This step can be done in prep for a maintenance window and should take roughly 3-5mins.
+Then copy the existing index into the new index. This step can be done in prep for a maintenance window and should take roughly 3-5mins.
 
 	POST _reindex
 	{
