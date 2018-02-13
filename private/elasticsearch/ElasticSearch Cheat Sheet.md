@@ -1,6 +1,6 @@
 ## Elasticsearch Cheat Sheet
 
-###Live Update Mappings
+### Live Update Mappings
 First create a new index as temp index
 	`php artisan elasticsearch:mapping mobile_users_2`
 
