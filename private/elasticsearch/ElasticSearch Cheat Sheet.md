@@ -1,5 +1,11 @@
 ## Elasticsearch Cheat Sheet
 
+### Re-Index
+Re-indexing involves migrating the MySQL records into the ES index. If a field value is wrong this can be run while the platform is live.
+If the field is new and is not included in the mapping then follow the instructions for live updating the mapping. Once the mapping is good and the existing data is present a re-index can be run to update the incorrect field.
+
+    `php artisan elasticsearch:migrate mobile_users --reset --info`
+
 ### Live Update Mappings
 First create a new index
 	`php artisan elasticsearch:mapping mobile_users_2`
